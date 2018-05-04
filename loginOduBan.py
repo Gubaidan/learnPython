@@ -9,8 +9,8 @@ cookie = http.cookiejar.CookieJar()
 opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor)  # 在已存的Cookie下建立连接
 
 params = {}
-params['form_email'] = '492407268@qq.com'
-params['form_password'] = '492407268'  # 这里写上已有的用户名和密码
+params['form_email'] = '*@qq.com'
+params['form_password'] = '*'  # 这里写上已有的用户名和密码
 params['source'] = 'http://www.douban.com/accounts/login'
 
 # 从首页提交登陆
